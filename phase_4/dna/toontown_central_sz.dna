@@ -34,10 +34,77 @@ group "toontownCentral" [
    ]
   ]
   group "props" [
+   prop "linktunnel_gs_8000_DNARoot" [
+    code [ "prop_GS_tunnel" ]
+    pos [ 20 170 5 ]
+    nhpr [ -150 -0.083787 0.0101321 ]
+    sign [
+     baseline [
+      code [ "mickey" ]
+      color [ 0.00392157 0.403922 0.803922 1 ]
+      pos [ 2.07014 0 0.591417 ]
+      nhpr [ 0 0 0.828508 ]
+      scale [ 2.67969 1 2.12201 ]
+      width [ 38.5314 ]
+      height [ 38.5314 ]
+      flags [ "b" ]
+      text [
+       letters [ "G" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "f" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0.501961 0.25098 1 ]
+      pos [ -0.5 0 -3.648 ]
+      nhpr [ 0 0 1.03171 ]
+      scale [ 3 1 3.4338 ]
+      kern [ 0.5 ]
+      stumble [ 0.4 ]
+      width [ -62.3199 ]
+      height [ -62.3199 ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "v" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+      text [
+       letters [ "w" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+     ]
+    ]
+   ]
    prop "linktunnel_tt_2226_DNARoot" [
     code [ "prop_safe_zone_tunnel" ]
-    pos [ -239.67 64.08 -6.18 ]
-    nhpr [ -90 0 0 ]
+    pos [ -240 65 -6.5 ]
+    nhpr [ -90 0 -0 ]
     sign [
      code [ "tunnel_sign_orange" ]
      scale [ 1.5 1 1.5 ]
@@ -92,28 +159,40 @@ group "toontownCentral" [
       width [ 50 ]
       height [ 50 ]
       text [
-       letters [ "T" ]
+       letters [ "S" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "k" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "N" ]
+       letters [ "t" ]
       ]
       text [
-       letters [ "T" ]
+       letters [ "c" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "h" ]
       ]
       text [
-       letters [ "W" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "N" ]
+       letters [ "d" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "w" ]
+      ]
+      text [
+       letters [ "n" ]
       ]
       text [
        letters [ " " ]
@@ -122,22 +201,22 @@ group "toontownCentral" [
        letters [ "C" ]
       ]
       text [
-       letters [ "E" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "N" ]
+       letters [ "n" ]
       ]
       text [
-       letters [ "T" ]
+       letters [ "t" ]
       ]
       text [
-       letters [ "R" ]
+       letters [ "r" ]
       ]
       text [
-       letters [ "A" ]
+       letters [ "a" ]
       ]
       text [
-       letters [ "L" ]
+       letters [ "l" ]
       ]
      ]
      baseline [
@@ -149,126 +228,10 @@ group "toontownCentral" [
      ]
     ]
    ]
-   prop "linktunnel_tt_2132_DNARoot" [
-    code [ "prop_safe_zone_tunnel" ]
-    pos [ -68.38 -202.64 -3.58 ]
-    nhpr [ -31 0 0 ]
-    sign [
-     code [ "tunnel_sign_orange" ]
-     scale [ 1.5 1 1.5 ]
-     baseline [
-      code [ "mickey" ]
-      color [ 0 0.501961 0 1 ]
-      pos [ 0 0 -0.76 ]
-      scale [ 1.5 1 1.5 ]
-      width [ 33.3333 ]
-      height [ 33.3333 ]
-      text [
-       letters [ "S" ]
-      ]
-      text [
-       letters [ "I" ]
-      ]
-      text [
-       letters [ "L" ]
-      ]
-      text [
-       letters [ "L" ]
-      ]
-      text [
-       letters [ "Y" ]
-      ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "S" ]
-      ]
-      text [
-       letters [ "T" ]
-      ]
-      text [
-       letters [ "R" ]
-      ]
-      text [
-       letters [ "E" ]
-      ]
-      text [
-       letters [ "E" ]
-      ]
-      text [
-       letters [ "T" ]
-      ]
-     ]
-     baseline [
-      code [ "mickey" ]
-      color [ 0 0.501961 0 1 ]
-      pos [ -0.08 0 -1.98 ]
-      scale [ 0.8 1 0.8 ]
-      width [ 44.0567 ]
-      height [ 44.0567 ]
-      text [
-       letters [ "T" ]
-      ]
-      text [
-       letters [ "O" ]
-      ]
-      text [
-       letters [ "O" ]
-      ]
-      text [
-       letters [ "N" ]
-      ]
-      text [
-       letters [ "T" ]
-      ]
-      text [
-       letters [ "O" ]
-      ]
-      text [
-       letters [ "W" ]
-      ]
-      text [
-       letters [ "N" ]
-      ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "C" ]
-      ]
-      text [
-       letters [ "E" ]
-      ]
-      text [
-       letters [ "N" ]
-      ]
-      text [
-       letters [ "T" ]
-      ]
-      text [
-       letters [ "R" ]
-      ]
-      text [
-       letters [ "A" ]
-      ]
-      text [
-       letters [ "L" ]
-      ]
-     ]
-     baseline [
-      pos [ 0 0 1.75 ]
-      scale [ 2.5 1 2.5 ]
-      graphic [
-       code [ "mickeySZ" ]
-      ]
-     ]
-    ]
-   ]
    prop "linktunnel_tt_2301_DNARoot" [
     code [ "prop_safe_zone_tunnel" ]
-    pos [ 27.6402 176.475 -6.18 ]
-    nhpr [ 171 0 0 ]
+    pos [ 18.44 186.13 -6.5 ]
+    nhpr [ -180 0 -0 ]
     sign [
      code [ "tunnel_sign_orange" ]
      pos [ 0 0 -0.18 ]
@@ -282,16 +245,28 @@ group "toontownCentral" [
       width [ 40.563 ]
       height [ 40.563 ]
       text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
        letters [ "T" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "C" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "H" ]
       ]
       text [
-       letters [ "N" ]
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "D" ]
       ]
       text [
        letters [ "T" ]
@@ -398,89 +373,41 @@ group "toontownCentral" [
      ]
     ]
    ]
-   prop "linktunnel_gs_8000_DNARoot" [
-    code [ "prop_GS_tunnel" ]
-    pos [ 20.9205 172.683 3.24925 ]
-    nhpr [ -150 -0.083787 0.0101321 ]
+   prop "linktunnel_tt_2132_DNARoot" [
+    code [ "prop_safe_zone_tunnel" ]
+    pos [ -70.5987 -204.123 -5 ]
+    nhpr [ -30 0 -0 ]
     sign [
+     code [ "tunnel_sign_orange" ]
+     scale [ 1.5 1 1.5 ]
      baseline [
       code [ "mickey" ]
-      color [ 0.00392157 0.403922 0.803922 1 ]
-      pos [ 2.07014 0 0.591417 ]
-      nhpr [ 0 0 0.828508 ]
-      scale [ 2.67969 1 2.12201 ]
-      width [ 38.5314 ]
-      height [ 38.5314 ]
-      flags [ "b" ]
-      text [
-       letters [ "G" ]
-      ]
-      text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "f" ]
-      ]
-      text [
-       letters [ "y" ]
-      ]
-     ]
-     baseline [
-      code [ "mickey" ]
-      color [ 1 0.501961 0.25098 1 ]
-      pos [ -0.572558 0 -3.648 ]
-      nhpr [ 0 0 1.03171 ]
-      scale [ 3.31651 1 3.4338 ]
-      wiggle [ -1.9889 ]
-      stumble [ 0.1 ]
-      width [ -62.3199 ]
-      height [ -62.3199 ]
+      color [ 0 0.501961 0 1 ]
+      pos [ 0 0 -0.76 ]
+      scale [ 1.5 1 1.5 ]
+      width [ 33.3333 ]
+      height [ 33.3333 ]
       text [
        letters [ "S" ]
       ]
       text [
-       letters [ "p" ]
+       letters [ "E" ]
       ]
       text [
-       letters [ "e" ]
+       letters [ "V" ]
       ]
       text [
-       letters [ "e" ]
+       letters [ "E" ]
       ]
       text [
-       letters [ "d" ]
+       letters [ "N" ]
       ]
       text [
-       letters [ "w" ]
+       letters [ " " ]
       ]
       text [
-       letters [ "a" ]
+       letters [ "S" ]
       ]
-      text [
-       letters [ "y" ]
-      ]
-     ]
-    ]
-   ]
-  ]
-  node "buildings" [
-   prop "prop_trolley_station_DNARoot" [
-    code [ "prop_trolley_station" ]
-    pos [ -120.945 -77.5626 0.525 ]
-    nhpr [ 128 0 0 ]
-    sign [
-     color [ 1 0.88 0.56 1 ]
-     baseline [
-      code [ "mickey" ]
-      color [ 0.992157 0.968627 0.00784314 1 ]
-      pos [ 0.5 0 1.33 ]
-      scale [ 1.4 1 1.4 ]
-      kern [ -0.09181 ]
-      width [ 10.9993 ]
-      height [ 10.9993 ]
       text [
        letters [ "T" ]
       ]
@@ -488,51 +415,99 @@ group "toontownCentral" [
        letters [ "R" ]
       ]
       text [
-       letters [ "O" ]
-      ]
-      text [
-       letters [ "L" ]
-      ]
-      text [
-       letters [ "L" ]
+       letters [ "E" ]
       ]
       text [
        letters [ "E" ]
       ]
       text [
-       letters [ "Y" ]
+       letters [ "T" ]
       ]
      ]
      baseline [
       code [ "mickey" ]
-      color [ 1 0 0 1 ]
-      pos [ 0.29 0 -1.9 ]
-      scale [ 2.7 1 2.7 ]
-      kern [ -0.2159 ]
+      color [ 0 0.501961 0 1 ]
+      pos [ -0.08 0 -1.98 ]
+      scale [ 0.8 1 0.8 ]
+      width [ 44.0567 ]
+      height [ 44.0567 ]
       text [
-       letters [ "G" ]
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "H" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "D" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "C" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "R" ]
       ]
       text [
        letters [ "A" ]
       ]
       text [
-       letters [ "M" ]
+       letters [ "L" ]
       ]
-      text [
-       letters [ "E" ]
-      ]
-      text [
-       letters [ "S" ]
+     ]
+     baseline [
+      pos [ 0 0 1.75 ]
+      scale [ 2.5 1 2.5 ]
+      graphic [
+       code [ "mickeySZ" ]
       ]
      ]
     ]
    ]
+  ]
+  node "buildings" [
    landmark_building "sz18:toon_landmark_TT_library_DNARoot" [
     code [ "toon_landmark_TT_library" ]
-    building_type [ "library" ]
     title [ "Toontown Library" ]
-    pos [ 91.4475 -44.9255 4 ]
-    nhpr [ 180 0 0 ]
+    pos [ 95 -45 5 ]
+    nhpr [ 180 -0 0 ]
     door [
      code [ "door_double_round_ur" ]
      color [ 0.88 0.45 0.38 1 ]
@@ -550,25 +525,19 @@ group "toontownCentral" [
       width [ 32.3782 ]
       height [ 32.3782 ]
       text [
-       letters [ "L" ]
+       letters [ "S" ]
       ]
       text [
-       letters [ "i" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "b" ]
+       letters [ "v" ]
       ]
       text [
-       letters [ "r" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "a" ]
-      ]
-      text [
-       letters [ "r" ]
-      ]
-      text [
-       letters [ "y" ]
+       letters [ "n" ]
       ]
      ]
      baseline [
@@ -579,16 +548,28 @@ group "toontownCentral" [
       width [ 29.3574 ]
       height [ 29.3574 ]
       text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
        letters [ "t" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "c" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "h" ]
       ]
       text [
-       letters [ "n" ]
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "d" ]
       ]
       text [
        letters [ "t" ]
@@ -607,10 +588,13 @@ group "toontownCentral" [
    ]
    landmark_building "sz14:toon_landmark_TT_bank_DNARoot" [
     code [ "toon_landmark_TT_bank" ]
-    building_type [ "bank" ]
     title [ "Toontown Bank" ]
-    pos [ 57.1796 38.6656 4 ]
-    nhpr [ 0 0 0 ]
+    pos [ 60 40 5 ]
+    nhpr [ -0 0 -0 ]
+    door [
+     code [ "door_double_round_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]
     sign [
      color [ 1 1 0.776471 1 ]
      pos [ 0 0 -0.64 ]
@@ -625,62 +609,57 @@ group "toontownCentral" [
       height [ 50 ]
       flags [ "c" ]
       text [
-       letters [ "B" ]
+       letters [ "S" ]
       ]
       text [
-       letters [ "a" ]
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "v" ]
+      ]
+      text [
+       letters [ "e" ]
       ]
       text [
        letters [ "n" ]
       ]
-      text [
-       letters [ "k" ]
-      ]
      ]
     ]
+   ]
+   landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
+    code [ "toon_landmark_TT_toonhall" ]
+    title [ "Toon Hall" ]
+    pos [ 110 20 5 ]
+    nhpr [ -90 0 0 ]
     door [
      code [ "door_double_round_ur" ]
      color [ 0.88 0.45 0.38 1 ]
     ]
-   ]
-   landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
-    code [ "toon_landmark_TT_school_house" ]
-    title [ "Toontown School House" ]
-    pos [ 129.919 -138.445 2.4997 ]
-    nhpr [ -140 0 0 ]
-    door [
-     code [ "door_double_square_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]
     sign [
-     code [ "TTC_sign3" ]
-     pos [ -0.35 0 0.3 ]
-     scale [ 0.9 1 0.9 ]
+     pos [ 0 0 -1.13 ]
+     scale [ 1.2 1 1.2 ]
      baseline [
       code [ "mickey" ]
-      color [ 1 0.501961 0 1 ]
-      pos [ 0 0 -0.49 ]
-      scale [ 1.5 1 1.8 ]
-      kern [ -0.028793 ]
-      width [ 40.778 ]
-      height [ 40.778 ]
+      color [ 1 1 0 1 ]
+      pos [ 0.3 0 -1.4 ]
+      scale [ 2.2 1 2.3 ]
+      kern [ -0.099751 ]
+      width [ 134.553 ]
+      height [ 134.553 ]
       text [
        letters [ "S" ]
       ]
       text [
-       letters [ "c" ]
+       letters [ "E" ]
       ]
       text [
-       letters [ "h" ]
+       letters [ "V" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "E" ]
       ]
       text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "l" ]
+       letters [ "N" ]
       ]
       text [
        letters [ " " ]
@@ -689,48 +668,46 @@ group "toontownCentral" [
        letters [ "H" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "A" ]
       ]
       text [
-       letters [ "u" ]
+       letters [ "L" ]
       ]
       text [
-       letters [ "s" ]
-      ]
-      text [
-       letters [ "e" ]
+       letters [ "L" ]
       ]
      ]
      baseline [
       code [ "mickey" ]
-      color [ 1 1 0.501961 1 ]
-      pos [ 0 0 1.24 ]
-      scale [ 1.1 1 1.1 ]
-      width [ 24.3433 ]
-      height [ 24.3433 ]
+      color [ 1 1 0 1 ]
+      pos [ 0 0 1.08 ]
+      scale [ 1.7 1 1.7 ]
+      kern [ -0.108469 ]
+      width [ 19.1721 ]
+      height [ 19.1721 ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
       text [
        letters [ "t" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "c" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "h" ]
       ]
       text [
-       letters [ "n" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "t" ]
-      ]
-      text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "w" ]
-      ]
-      text [
-       letters [ "n" ]
+       letters [ "d" ]
       ]
      ]
     ]
@@ -739,8 +716,12 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_clothes_shop" ]
     building_type [ "clotheshop" ]
     title [ "Clothing Shop" ]
-    pos [ 106.265 160.831 3 ]
-    nhpr [ -30 0 0 ]
+    pos [ 105 155 5 ]
+    nhpr [ -30 0 -0 ]
+    door [
+     code [ "door_double_clothesshop_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]
     sign [
      baseline [
       code [ "mickey" ]
@@ -778,51 +759,55 @@ group "toontownCentral" [
        letters [ "S" ]
       ]
       text [
-       letters [ "h" ]
+       letters [ "E" ]
       ]
       text [
-       letters [ "o" ]
+       letters [ "v" ]
       ]
       text [
-       letters [ "p" ]
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "n" ]
       ]
      ]
     ]
-    door [
-     code [ "door_double_clothesshop_ur" ]
-     color [ 0.88 0.45 0.38 1 ]
-    ]	
    ]
-   landmark_building "sz13:toon_landmark_TT_toonhall_DNARoot" [
-    code [ "toon_landmark_TT_toonhall" ]
-    title [ "Toon Hall" ]
-    pos [ 116.66 24.29 4 ]
-    nhpr [ -90 0 -0 ]
+   landmark_building "sz16:toon_landmark_TT_school_house_DNARoot" [
+    code [ "toon_landmark_TT_school_house" ]
+    title [ "Toontown School House" ]
+    pos [ 130 -140 5 ]
+    nhpr [ -135 0 -0 ]
+    door [
+     code [ "door_double_square_ur" ]
+     color [ 0.88 0.45 0.38 1 ]
+    ]
     sign [
-     pos [ 0 0 -1.15 ]
-     scale [ 1.1 1 1.1 ]
+     code [ "TTC_sign3" ]
+     pos [ -0.35 0 0.3 ]
+     scale [ 0.9 1 0.9 ]
      baseline [
       code [ "mickey" ]
-      color [ 1 1 0 1 ]
-      pos [ 0.3 0 -0.6 ]
-      scale [ 2.1 1 2.1 ]
-      kern [ -0.099751 ]
-      width [ 134.553 ]
-      height [ 134.553 ]
+      color [ 1 0.501961 0 1 ]
+      pos [ 0 0 -0.49 ]
+      scale [ 1.5 1 1.8 ]
+      kern [ -0.028793 ]
+      width [ 40.778 ]
+      height [ 40.778 ]
       text [
-       letters [ "T" ]
+       letters [ "S" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ "O" ]
+       letters [ "v" ]
       ]
       text [
-       letters [ "N" ]
+       letters [ "e" ]
       ]
       text [
-       letters [ " " ]
+       letters [ "n" ]
       ]
       text [
        letters [ " " ]
@@ -831,25 +816,134 @@ group "toontownCentral" [
        letters [ "H" ]
       ]
       text [
-       letters [ "A" ]
+       letters [ "o" ]
       ]
       text [
-       letters [ "L" ]
+       letters [ "u" ]
       ]
       text [
-       letters [ "L" ]
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 1 0.501961 1 ]
+      pos [ 0 0 1.24 ]
+      scale [ 1.1 1 1.1 ]
+      width [ 24.3433 ]
+      height [ 24.3433 ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "k" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "c" ]
+      ]
+      text [
+       letters [ "h" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "d" ]
+      ]
+      text [
+       letters [ "t" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "w" ]
+      ]
+      text [
+       letters [ "n" ]
       ]
      ]
     ]
-     door [
-      code [ "door_double_round_ur" ]
-      color [ 0.88 0.45 0.38 1 ]
-    ]    
+   ]
+   prop "prop_trolley_station_DNARoot" [
+    code [ "prop_trolley_station" ]
+    pos [ -120 -75 0 ]
+    nhpr [ 135 0 0 ]
+    sign [
+     color [ 1 0.88 0.56 1 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0.992157 0.968627 0.00784314 1 ]
+      pos [ 0.5 0 1.33 ]
+      scale [ 1.4 1 1.4 ]
+      kern [ -0.09181 ]
+      width [ 10.9993 ]
+      height [ 10.9993 ]
+      text [
+       letters [ "B" ]
+      ]
+      text [
+       letters [ "o" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ "s" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "B" ]
+      ]
+      text [
+       letters [ "a" ]
+      ]
+      text [
+       letters [ "b" ]
+      ]
+      text [
+       letters [ "y" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 1 0 0 1 ]
+      pos [ 0.29 0 -1.9 ]
+      scale [ 2.7 1 2.7 ]
+      kern [ -0.2159 ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "v" ]
+      ]
+      text [
+       letters [ "e" ]
+      ]
+      text [
+       letters [ "n" ]
+      ]
+     ]
+    ]
    ]
   ]
   prop "toontown_central_DNARoot" [
    code [ "toontown_central" ]
-   pos [ 9.15527e-005 -1.90735e-006 2.6226e-006 ]
+   pos [ -0.46372 -0.331116 -4.76837e-007 ]
    nhpr [ -90 0 -0 ]
   ]
   prop "prop_tree_large_ur_DNARoot" [
@@ -872,22 +966,6 @@ group "toontownCentral" [
    pos [ -60.94 -8.8 -2 ]
    nhpr [ -178 0 0 ]
   ]
-  prop "prop_blockade_DNARoot" [
-   code [ "prop_blockade" ]
-   pos [ -120.49 70.90 4.14 ]
-   nhpr [ 48.81 0 0 ]
-   scale [ 0.42 0.42 0.42 ]
-  ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -115 72 0.525 ]
-    nhpr [ 112 0 0 ]
-   ]
-   prop "prop_barrier_cone_DNARoot" [
-    code [ "prop_barrier_cone" ]
-    pos [ -123.265 65.770 0.525 ]
-    nhpr [ 54 0 0 ]
-   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ 119.621 -127.865 2.49998 ]
@@ -1082,20 +1160,20 @@ group "toontownCentral" [
    code [ "toon_landmark_hqTT" ]
    building_type [ "hq" ]
    title [ "Toon HQ" ]
-   pos [ 23.6425 24.8587 4.00001 ]
+   pos [ 24.6425 24.8587 4.00001 ]
    nhpr [ 135 0 0 ]
+   prop "animated_prop_HQPeriscopeAnimatedProp_DNARoot" [
+    code [ "animated_prop_HQPeriscopeAnimatedProp" ]
+    pos [ 7.17 -7.67 19.07 ]
+    nhpr [ 110 0 0 ]
+    scale [ 4 4 4 ]
+   ]
    prop "animated_prop_HQTelescopeAnimatedProp_DNARoot" [
     code [ "animated_prop_HQTelescopeAnimatedProp" ]
     pos [ 7.003 0 13.191 ]
     nhpr [ 168 81 0 ]
     scale [ 4 4 4 ]
    ]
-  ]
-  prop "animated_prop_HQPeriscopeAnimatedProp_DNARoot" [
-    code [ "animated_prop_HQPeriscopeAnimatedProp" ]
-    pos [ 23.69 36.75 20.48 ]
-    nhpr [ 273.58 0 0 ]
-    scale [ 4 4 4 ]
   ]
   flat_building "sz0:random_DNARoot" [
    pos [ -148.706 -25.452 -0.18 ]
@@ -1150,6 +1228,16 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
+  ]
+  prop "prop_toontown_central_fountain_DNARoot" [
+   code [ "prop_toontown_central_fountain" ]
+   pos [ 93.2057 -106.482 2.50002 ]
+   nhpr [ 0 0 0 ]
+  ]
+  prop "prop_mickey_on_horse_DNARoot" [
+   code [ "prop_mickey_on_horse" ]
+   pos [ 73.6829 121.026 2.49996 ]
+   nhpr [ 0 0 0 ]
   ]
   prop "prop_post_one_light_DNARoot" [
    code [ "prop_post_one_light" ]
@@ -1296,12 +1384,23 @@ group "toontownCentral" [
    pos [ -125 60 0 ]
    nhpr [ 150 0 0 ]
   ]
+  prop "prop_wood_fence_DNARoot" [
+   code [ "prop_wood_fence" ]
+   pos [ 38.282 163.591 2.95929 ]
+   nhpr [ 31 0 0 ]
+   scale [ 1.18418 1.18418 1.18418 ]
+  ]
+  prop "prop_party_gate_DNARoot" [
+   code [ "prop_party_gate" ]
+   pos [ 77.935 -159.939 2.60141 ]
+   nhpr [ 195 0 0 ]
+  ]
   landmark_building "sz22:toon_landmark_TT_pet_shop_DNARoot" [
    code [ "toon_landmark_TT_pet_shop" ]
    building_type [ "petshop" ]
    title [ "Pet Shop" ]
-   pos [ -124.375 74.3749 0.5 ]
-   nhpr [ 49 0 0 ]
+   pos [ -125 70 0 ]
+   nhpr [ 45 0 -0 ]
    door [
     code [ "door_double_round_ur" ]
     color [ 1 0.87 0.38 1 ]
@@ -1336,27 +1435,19 @@ group "toontownCentral" [
       letters [ "S" ]
      ]
      text [
-      letters [ "H" ]
+      letters [ "E" ]
      ]
      text [
-      letters [ "O" ]
+      letters [ "V" ]
      ]
      text [
-      letters [ "P" ]
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "N" ]
      ]
     ]
    ]
-  ]
-  prop "prop_wood_fence_DNARoot" [
-   code [ "prop_wood_fence" ]
-   pos [ 38.282 163.591 2.95929 ]
-   nhpr [ 31 0 0 ]
-   scale [ 1.18418 1.18418 1.18418 ]
-  ]
-  prop "prop_party_gate_DNARoot" [
-   code [ "prop_party_gate" ]
-   pos [ 77.935 -159.939 2.60141 ]
-   nhpr [ 195 0 0 ]
   ]
  ]
 ]
