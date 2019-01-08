@@ -20057,7 +20057,7 @@
 			<Group> elevator_signorigin_4 {
                 <DCS> { net }
                 <Transform> {
-                  <Translate> { 265.5 27.5 48 }
+                  <Translate> { 267 27.5 48 }
                 }
               }
             <Group> elevator_origin_0 {
@@ -20069,7 +20069,7 @@
 			<Group> elevator_origin_4 {
                 <DCS> { net }
                 <Transform> {
-                  <Translate> { 265.5 28 32 }
+                  <Translate> { 267 28 32 }
                 }
               }
             <Group> ElevatorFrameShadow_0 {
